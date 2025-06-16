@@ -31,7 +31,6 @@ Performed in `Rentkar_Data_Cleaning_Using_Python.ipynb`:
 
 Check out the interactive Power BI dashboard in `rentKar Data Analysis Dasboard.pbix`. Key insights include:
 
-![Dashboard Demo](dashboardd.png)
 
 ### 🎥 Dashboard Demo
 
