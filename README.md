@@ -27,12 +27,12 @@ Performed in `Rentkar_Data_Cleaning_Using_Python.ipynb`:
 - Cleaned vendor/city/asset-type standardization
 
 ---
-## 📊 Dashboard Highlights (Power BI)
+## Dashboard Highlights (Power BI)
 
 Check out the interactive Power BI dashboard in `rentKar Data Analysis Dasboard.pbix`. Key insights include:
 
 
-### 🎥 Dashboard Demo
+### Dashboard Demo
 
 Here's a quick walkthrough (5–10 seconds) showcasing basic interactivity in the Power BI dashboard.
 
@@ -46,7 +46,7 @@ Here's a quick walkthrough (5–10 seconds) showcasing basic interactivity in th
 
 ---
 
-## 📌 Key Business Insights
+## Key Business Insights
 
 - Certain assets like **Gaming PCs** are consistently underutilized across multiple cities.
 - **Guitar and GoPro** also show lower RoI and usage.
@@ -58,7 +58,7 @@ Here's a quick walkthrough (5–10 seconds) showcasing basic interactivity in th
 
 ---
 
-## 📎 Case Study Report
+## Case Study Report
 
 All findings, analysis approach, and recommendations are documented in:  
-📄 `Data-Driven Case Study on rentKar.pdf`
+`Data-Driven Case Study on rentKar.pdf`
