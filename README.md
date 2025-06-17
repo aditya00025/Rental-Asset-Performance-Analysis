@@ -1,4 +1,4 @@
-# RentKar Asset Optimization & Data Analysis Project
+# Assset Optimization Case study
 
 This repository presents a comprehensive data analysis case study for **RentKar**, a rental business dealing in tech assets like laptops, gaming PCs, and cameras. The objective is to improve asset performance, identify underutilization, and offer actionable insights using data-driven methods.
 
