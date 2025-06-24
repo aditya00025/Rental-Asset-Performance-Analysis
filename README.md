@@ -1,6 +1,6 @@
 # Assset Optimization Case study
 
-This repository presents a comprehensive data analysis case study for **RentKar**, a rental business dealing in tech assets like laptops, gaming PCs, and cameras. The objective is to improve asset performance, identify underutilization, and offer actionable insights using data-driven methods.
+This repository presents a comprehensive data analysis case study for rental business dealing in tech assets like laptops, gaming PCs, and cameras. The objective is to improve asset performance, identify underutilization, and offer actionable insights using data-driven methods.
 
 ---
 ## Tools Used
@@ -13,7 +13,7 @@ This repository presents a comprehensive data analysis case study for **RentKar*
 ---
 ## Data Cleaning (Python)
 
-Performed in `Rentkar_Data_Cleaning_Using_Python.ipynb`:
+Performed in `Rental_Asset_Data_Cleaning_Using_Python.ipynb`:
 
 - Handled missing values and data type inconsistencies
 
@@ -29,7 +29,7 @@ Performed in `Rentkar_Data_Cleaning_Using_Python.ipynb`:
 ---
 ## Dashboard Highlights (Power BI)
 
-Check out the interactive Power BI dashboard in `rentKar Data Analysis Dasboard.pbix`. Key insights include:
+Check out the interactive Power BI dashboard in `rental assets Data Analysis Dasboard.pbix`. Key insights include:
 
 
 ### Dashboard Demo
@@ -61,4 +61,4 @@ Here's a quick walkthrough (5–10 seconds) showcasing basic interactivity in th
 ## Case Study Report
 
 All findings, analysis approach, and recommendations are documented in:  
-`Data-Driven Case Study on rentKar.pdf`
+`Data-Driven Case Study on rental assets.pdf`
