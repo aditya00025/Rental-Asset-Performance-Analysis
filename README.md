@@ -1,4 +1,4 @@
-# Assset Optimization Case study
+# Rental Asset Performance Analysis
 
 This repository presents a comprehensive data analysis case study for rental business dealing in tech assets like laptops, gaming PCs, and cameras. The objective is to improve asset performance, identify underutilization, and offer actionable insights using data-driven methods.
 
