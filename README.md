@@ -26,18 +26,18 @@ Data preparation was done using Python to clean and structure raw inputs into an
 - **Type Conversion**: Converted acquisition dates to `datetime`
 - **Standardization**: Harmonized inconsistent entries in key columns
 
-✅ Final cleaned dataset was used for Power BI reporting.
+Final cleaned dataset was used for Power BI reporting.
 
 ---
 
-## 📊 2. Power BI Dashboard
+## 2. Power BI Dashboard
 
 An interactive dashboard was created in Power BI to visualize and explore the asset data from multiple dimensions.
 
-### 📁 File
+### File
 - `Rental Assets Data Analysis Dashboard.pbix`
 
-### ⚙️ Key Features
+### Key Features
 
 - **Data Model**
   - Custom measures and calculated columns were created (e.g., ROI, asset age)
