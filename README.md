@@ -1,64 +1,71 @@
-# Rental Asset Performance Analysis
+# Rental Assets Data Analysis Project
 
-This repository presents a comprehensive data analysis case study for rental business dealing in tech assets like laptops, gaming PCs, and cameras. The objective is to improve asset performance, identify underutilization, and offer actionable insights using data-driven methods.
+This project focuses on analyzing rental asset data to uncover trends in usage, vendor performance, and financial outcomes. It follows a two-stage pipeline:
 
----
-## Tools Used
-
-- **Python (Pandas, NumPy)** – For data cleaning and transformation  
-- **Power BI** – For creating dashboards, charts, and interactive visuals  
-- **Excel** – For pre-processing and derived metric verification  
-- **GitHub** – Version control and project showcase
-
----
-## Data Cleaning (Python)
-
-Performed in `Rental_Asset_Data_Cleaning_Using_Python.ipynb`:
-
-- Handled missing values and data type inconsistencies
-
----
-## Excel
-- Created derived columns like:
-  - `Asset Utilization`
-  - `Lifecycle (Days)`
-  - `Return on Investment (RoI)`
-  - `Utilization Category (e.g. Underutilized/Utilized)`
-- Cleaned vendor/city/asset-type standardization
-
----
-## Dashboard Highlights (Power BI)
-
-Check out the interactive Power BI dashboard in `rental assets Data Analysis Dasboard.pbix`. Key insights include:
-
-
-### Dashboard Demo
-
-Here's a quick walkthrough (5–10 seconds) showcasing basic interactivity in the Power BI dashboard.
-
-[▶ Watch Dashboard Demo](https://drive.google.com/file/d/1xno-AIrF_BWwyrqjeMBRFvDCJYXSx-ss/view?usp=sharing)
-
-- **Asset Utilization by City**
-- **Return on Investment (RoI) by Asset Type**
-- **Current Asset Status (Active, Lost, In Repair)**
-- **Vendor Performance**
-- **Asset Lifecycle Metrics**
+1. **Data Cleaning & Preprocessing** (Python)  
+2. **Interactive Dashboard** (Power BI)
 
 ---
 
-## Key Business Insights
+## 1. Data Cleaning & Preprocessing (Python)
 
-- Certain assets like **Gaming PCs** are consistently underutilized across multiple cities.
-- **Guitar and GoPro** also show lower RoI and usage.
-- Vendor-level performance varies; some offer assets with longer lifecycles and higher RoI.
-- Recommendations include:
-  - Prioritizing repairs over replacements for high-RoI assets
-  - Avoiding bulk purchases of underutilized asset types
-  - Reallocating assets based on city-level demand patterns
+Data preparation was done using Python to clean and structure raw inputs into an analysis-ready format.
+
+### File
+- `Rental_Assets_Data_cleaning_and_preprocessing.ipynb`
+
+### Key Steps
+
+- **Read & Inspect**: Loaded `Rental_Asset_Dataset.csv`
+- **Column Cleaning**: Standardized column names to `snake_case`
+- **Duplicate Removal**: Removed all duplicate records
+- **Null Handling**:
+  - Filled missing `vendor_name` with `"Unknown Vendor"`
+  - Imputed missing `monthly_rent` using the **median**
+  - Cleaned malformed `city` entries and filled with `"Unknown City"`
+- **Type Conversion**: Converted acquisition dates to `datetime`
+- **Standardization**: Harmonized inconsistent entries in key columns
+
+✅ Final cleaned dataset was used for Power BI reporting.
 
 ---
 
-## Case Study Report
+## 📊 2. Power BI Dashboard
 
-All findings, analysis approach, and recommendations are documented in:  
-`Data-Driven Case Study on rental assets.pdf`
+An interactive dashboard was created in Power BI to visualize and explore the asset data from multiple dimensions.
+
+### 📁 File
+- `Rental Assets Data Analysis Dashboard.pbix`
+
+### ⚙️ Key Features
+
+- **Data Model**
+  - Custom measures and calculated columns were created (e.g., ROI, asset age)
+
+- **Visualizations**
+  - City-wise asset distribution and performance
+  - Time-based asset acquisition and usage patterns
+  - Vendor-level comparisons of rent, usage, and total value
+  - KPIs: Return on Investment, Lifecycle Duration, Utilization
+
+- **Design**
+  - Interactive filters and slicers for drill-down analysis
+  - Clean, sectioned visuals with a focus on usability
+
+---
+
+### Dashboard Preview
+
+![Dashboard](./dashboard.png)
+
+## Case Study
+
+A brief case study was also conducted based on the business insights derived from the dashboard, helping simulate a real-world analytics scenario.
+
+---
+
+## Conclusion
+
+This project showcases a full analytics workflow — from raw data to actionable insights. By combining Python for preprocessing with Power BI for visualization, it delivers a complete solution to analyze asset rental performance across cities, vendors, and time.
+
+
